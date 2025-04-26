@@ -18,6 +18,8 @@
     background:white no-repeat scroll-center;
     background-size: cover;
     flex: 1;
+    filter: grayscale(1);
+    transition: flex 0.5s ease;
 }
 .inner-container h3{
     text-align: center;
@@ -29,6 +31,7 @@
 }
 .active{
     flex: 3;
+    filter: grayscale(0);
 }
 
 #inner-container-1{
