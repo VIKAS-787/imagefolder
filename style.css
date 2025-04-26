@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.inner-container{
+    width: 30%;
+    height: 90vh;
+    gap: 30px;
+    border-radius: 250x;
+    background:white no-repeat scroll-center;
+    background-size: cover;
+    flex: 1;
+}
+.inner-container h3{
+    text-align: center;
+    color: white;
+    background: rgba(0, 0,0, 0.6);
+    font-size: 39px;
+    font-weight: 600;
+    padding: 20px;
+}
+.active{
+    flex: 3;
+}
+
+#inner-container-1{
+background-image: url(https://wallpapercave.com/wp/wp5172751.jpg);
+}
+#inner-container-2{
+    background-image: url(https://wallpapercave.com/wp/wp9429773.jpg);
+}
+#inner-container-3{
+    background-image: url(https://preview.redd.it/iyhygkj6h8931.jpg?auto=webp&s=36b8cfc7daba4c1e53c1dd9f0fa2f21d4c84cbc5);
+}
+#inner-container-4{
+    background-image: url(https://image3.mouthshut.com/images/imagesp/925004348s.jpg);
+}
+#inner-container-5{
+    background-image: url(https://media.architecturaldigest.in/wp-content/uploads/2019/05/hyderabad-eid-ramzan-hyderabad-tou-guide_1.jpg);
+}
